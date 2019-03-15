@@ -10,7 +10,7 @@
     "lint": "eslint src/*.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tracy Reith",
   "license": "ISC",
   "dependencies": {
     "jquery": "^3.3.1",
