@@ -6,16 +6,16 @@ _Published_ **<< Date >>**<br>
 _Author_ **Tracy Reith**
 
 1. [Description](#description)
-1. [Learning Objective](#learning%20objective)
-1. [Target Audience/Users](#target%20audience/users)
-1. [User Stories](#user%20stories)
-1. [Product Requirements](#product%20requirements)
-1. [Non-technical Requirements](#non-technical%20requirements)
-1. [Development Specs](#development%20specs)
-1. [Stretch Goals](#stretch%20goals)
+1. [Learning Objective](#learning-objective)
+1. [Target Audience/Users](#target-audience/users)
+1. [User Stories](#user-stories)
+1. [Product Requirements](#product-requirements)
+1. [Non-technical Requirements](#non-technical-requirements)
+1. [Development Specs](#development-specs)
+1. [Stretch Goals](#stretch-goals)
 1. [Installation](#installation)
-1. [Known Bugs](#known%20bugs)
-1. [Technologies Used](#technologies%20used)
+1. [Known Bugs](#known-bugs)
+1. [Technologies Used](#technologies-used)
 1. [License](#license)
 
 ### Description
