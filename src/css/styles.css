@@ -1,0 +1,36 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  height: 100vh;
+  background: linear-gradient(30deg, #b3cecd, #ecefe1);
+}
+
+h1, h2 {
+  font-weight: normal;
+  margin: 1rem 0 0.5rem 0;
+  color: #242828;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0.5rem 0 0.5rem 0;
+  color: #333;
+  line-height: 140%;
+}
+
+.container {
+  width: 80%;
+  max-width: 1000px;
+  min-width: 400px;
+  margin: 2rem auto 1rem auto;
+}
+
+/*# sourceMappingURL=styles.css.map */
