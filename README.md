@@ -69,6 +69,6 @@ _spec_ | _input_ | _output_
 * Tested with Karma and Jasmine
 
 ### License
-_license_
+[MIT](./LICENSE.txt)
 
 Copyright (c) 2019 Tracy Reith
