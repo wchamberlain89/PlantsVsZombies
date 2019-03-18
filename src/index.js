@@ -1,21 +1,45 @@
 // import './css/styles.css'; // Should not need this if compiling sass
 import $ from 'jquery';
 import './scss/styles.scss';
-import { addToTen } from './js/project.js';
+import { Game } from './classes/gameManager.js'
+import { Sunflower } from './classes/sunflower.js'
+import { Zombie } from './classes/zombie.js'
 
-$(document).ready(function(){
-  $("#adder").submit(function(event) {
-    event.preventDefault();
-    const num1 = parseInt($("#num1").val());
-    const num2 = parseInt($("#num2").val());
-    let result = addToTen(num1,num2);
-    console.log(result);
-    let answer = "";
-    if (result === true) {
-      answer = "";
-    } else {
-      answer = "do not ";
-    }
-    $(".result").html(`<p>${num1} and ${num2} ${answer}add up to 10.</p>`);
+function refreshSun(game) {
+  $(".sunScore").text(game.sunQty);
+}
+
+function refreshBoard(game) {
+  for(let space in game.board) {
+      if(game.board[space] !== 0) {
+        $("#" + space).html(game.board[space].imgSrc);
+      }
+
+  }
+}
+
+$(document).ready(function() {
+  const game = new Game();
+
+  game.spawn();
+
+  setInterval(function(){
+    refreshSun(game);
+    refreshBoard(game);
+  }, 2000);
+
+  $(".sunflower").on("click", function(){
+    $(this).addClass("selected");
   });
+
+  $(".space").on("click", function(){
+    if($(".sunflower").hasClass("selected")){
+      const space = $(this).attr("id");
+      game.addSunflower(space);
+      refreshSun(game);
+      // $(this).html(game.board[space].imgSrc);
+      $(".sunflower").removeClass("selected")
+    }
+  });
+
 });

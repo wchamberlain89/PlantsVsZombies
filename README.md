@@ -19,19 +19,12 @@ _Author_ **Tracy Reith**
 1. [License](#license)
 
 ### Description
-_Brief project description. Created for Epicodus Front End Development course._
+_A plants vs. zombies game clone._
 
 ### Learning Objective
-_Learning objective._
-
-### Target Audience/Users
-* _user_
-* _user_
-
-### User Stories
-**As a** _archetype_,<br>
-**I want** _to be able to do something_,<br>
-**So that** _I can achieve a goal_.
+_Asynchronous JS events_
+_Testing jasmine/karma_
+_ES6 variables, fat arrow function_
 
 ### Product Requirements
 * _requirement_
@@ -39,36 +32,21 @@ _Learning objective._
 * _requirement_
 
 ### Non-technical Requirements
-* _requirement_
-* _requirement_
-* _requirement_
+* _Genius_
+* _Determination_
+* _Hands_
 
 ### Development Specs
 
 Specification | Input | Output
 ------------- | ----- | ------
-_spec_ | _input_ | _output_
-
-### Stretch Goals
-* _goal_
-* _goal_
-* _goal_
+_Starting Resources/setup_ | _Start of game_ | _100 sun units, 3 hearts_
+_Purchase_ | _Sunflower_ | _Placement_
+_Sunflower Power_ | _Sunflower Active_ | _Add 10 sun units per 3s_
+_Spawn Zombie_ | _Time_ | _Zombie spawned in_
+_Zombie Movement_ | _Time, positioning_ | _Move ahead one block, when in block in front of plant, attack plant_
+_Deletion_ | _Selected Plant_ | _Remove plant from block and refund sun units_
 
 ### Installation
 * Clone from https://github.com/TracyRe/<< repo >>.git
 * Run `$ npm install`
-
-
-### Known Bugs
-* None identified
-
-### Technologies Used
-* HTML
-* Sass with variables and mixins
-* Javascript with jQuery
-* Tested with Karma and Jasmine
-
-### License
-[MIT](./LICENSE.txt)
-
-Copyright (c) 2019 Tracy Reith
